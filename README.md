@@ -50,8 +50,8 @@ docker run --rm -p 6379:6379 redis
 ### Clone the repository
 
 ```
-git clone https://github.com/redis-developer/redis-rust-getting-started
-cd rust-redis-rust-getting-started
+git clone https://github.com/redis-developer/rust-redis-101
+cd rust-redis-101
 ```
 
 ### Export
@@ -74,9 +74,9 @@ cargo run
 
 
 ```
-   Compiling redis-rust-getting-started v0.1.0 (/Users/ajeetraina/projects/redis-rust-getting-started)
+   Compiling redis-rust-getting-started v0.1.0 (/Users/ajeetraina/projects/rust-redis-101)
     Finished dev [unoptimized + debuginfo] target(s) in 0.70s
-     Running `target/debug/redis-rust-getting-started`
+     Running `target/debug/rust-redis-101`
 ******* Running SET, GET, INCR commands *******
 value for 'foo' = bar
 counter = 16
